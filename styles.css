@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+.hidden {
+    display: none;
+}
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+button {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+}
